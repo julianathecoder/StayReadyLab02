@@ -1,5 +1,7 @@
 package com.codedifferently;
-//Each operation automatically updates the display
+/*
+ * Each operation automatically update the display
+ */
 
 public class Calculator {
     private Display display;
@@ -13,7 +15,7 @@ public class Calculator {
         this.display.updateAnswer(0.0);
     }
  
-    public double getDisplayNum(){
+    public double getDisplayAns(){
         return this.display.getAnswer();
     }
 

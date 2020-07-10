@@ -1,6 +1,6 @@
 package com.codedifferently;
 
-public class Display extends Calculator {
+public class Display {
    private double answer;
    private String displayErr;
    private String mode;
@@ -9,7 +9,7 @@ public class Display extends Calculator {
     public Display(){
         this.answer = 0.0;
         this.displayErr = "Err";
-        this.mode = "decimal"; //defaultmodeSwitch, unless changed
+        this.mode = "decimal"; //default mode, unless changed
     }
 
     public double getAnswer(){

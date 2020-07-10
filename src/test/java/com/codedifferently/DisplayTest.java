@@ -6,7 +6,7 @@ import org.junit.Test;
 public class DisplayTest {
 
     @Test
-    public void AnswerTest(){
+    public void getAnswerTest(){
         //Given
         double expectedAns = 0.0;
 
@@ -25,26 +25,12 @@ public class DisplayTest {
 
     @Test
     public void switchDisplayModeTest(){
-        //when 
-
-        //given 
-
-        //then 
-
-       // Assert.assertEquals(expected, actual);
 
     }
 
     @Test
-    public void switchDisplayModeTest(String mode){
-        //when
-
-
-        //given 
-        
-
-        //then 
-       // Assert.assertEquals(expected, actual);
+    public void switchDisplayStrModeTest(){
+  
     }
     
 }
